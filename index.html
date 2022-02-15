@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel site</title>
+</head>
+<body>
+
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Travel site</h2>
+            <div class="toggle"></div>
+            
+            
+        </header>
+        
+         <video autoplay loop class="back-video" muted plays-inline>
+          <source src="img/explore.mp4" type="video/mp4">  </video>
+         <div class="overlay"></div>
+         <div class="text">
+             <h2>Explore the World!</h2>
+             <h3>with comfort and style</h3>
+             <p>Keep in mind, you can plan a trip without breaking the bank — you just have to know where to go online first. And if you're tired of wondering which sites are best for each part of your trip planning, we've got you covered. </p>
+             <a href="#">Explore</a>
+         </div>
+
+         <ul class="social">
+             <li><a href="#"><img src="facebook.png" alt=""></a></li>
+             <li><a href="#"><img src="twitter.png" alt=""></a></li>
+             <li><a href="#"><img src="instagram.png" alt=""></a></li>
+         </ul>
+         
+    </section>
+
+    <div class="menu">
+
+        <ul>
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>News</li>
+            <li><a href="#"></a>Destination</li>
+            <li><a href="#"></a>About</li>
+        </ul>
+    </div>
+  
+    
+
+<script>
+    
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+
+    })
+
+
+</script>
+
+
+</body>
+</html>
